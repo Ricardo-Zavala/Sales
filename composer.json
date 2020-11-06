@@ -1,0 +1,13 @@
+{
+    "name": "iis/transdbf",
+    "description": "Lectura de un archivo dbf",
+    "type": "project",
+    "require": {
+        "hisamu/php-xbase": "^1.3@dev"
+    },
+    "autoload": {
+        "psr-4": {}
+    },
+    "license": "MIT",
+    "minimum-stability": "dev"
+}
