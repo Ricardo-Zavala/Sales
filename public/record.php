@@ -6,7 +6,7 @@ use XBase\Table;
 
 try {
     // Ruta del archivo .dbf
-    $table = new Table('C:/intensis/dbtrans/TRANS.DBF', null, 'cp1251');
+    $table = new Table('C:/intesis/bdtrans/trans.dbf', null, 'cp1251');
     $columns = $table->getRecordCount() . PHP_EOL;
     // Recorriendo el archivo del ultimo al primero
     for ($i = (int)$columns - 1; $i >= 0; $i--) {
